@@ -4,7 +4,7 @@ apt-get update
 apt-get upgrade -y
 apt-get dist-upgrade -y
 apt-get autoremove -y
-apt-get install apache2 php5 php5-cli php5-fpm php5-gd libssh2-php libapache2-mod-php5 php5-mcrypt mysql-server php5-mysql git unzip zip postfix php5-curl mailutils php5-json phpmyadmin -y
+apt-get install apache2 php7.0 php7.0-cli php7.0-fpm php7.0-gd php-ssh2 libapache2-mod-php7.0 php7.0-mcrypt mysql-server php7.0-mysql git unzip zip postfix php7.0-curl mailutils php7.0-json phpmyadmin -y
 php5enmod mcrypt
 
 nano /etc/apache2/sites-enabled/000-default.conf
